@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stillwater Yoga Studio</title>
+
+    <!-- Google Fonts: Marcellus for headings, Nunito Sans for normal text -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Marcellus&family=Nunito+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS file -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#home" class="logo">Stillwater</a>
+
+      <nav class="nav">
+        <a href="#classes">Classes</a>
+        <a href="#schedule">Schedule</a>
+        <a href="#teachers">Teachers</a>
+        <a href="#pricing">Pricing</a>
+      </nav>
+      <a href="#join" class="btn btn-small">Book a Class</a>
+    </header>
+
+    <main>
+      <!-- Hero -->
+      <section class="hero" id="home">
+        <div class="hero-text">
+          <h1>
+            Slow down. <br />
+            Breathe in. <br />Start again.
+          </h1>
+          <p>
+            Small-group yoga and meditation classes for every level. Come as you
+            are, leave a little lighter.
+          </p>
+          <a href="#join" class="btn">Try your first class free</a>
+        </div>
+        <div class="sun" aria-hidden="true"></div>
+      </section>
+
+      <!-- Classes -->
+      <section class="section" id="classes">
+        <h2>Find the class that fits you</h2>
+        <p class="section-intro">
+          Three styles, one calm room. Mats and blocks are provided.
+        </p>
+        <div class="grid-3">
+          <article class="card">
+            <h3>Gentle Flow</h3>
+            <p>
+              Slow Stretches and easy poses. Perfect if you are new or stiff.
+            </p>
+            <span class="tag">60 min</span>
+          </article>
+
+          <article class="card">
+            <h3>Power Vinyasa</h3>
+            <p>Move with your breath through strong. energizing sequences.</p>
+            <span class="tag">70 min</span>
+          </article>
+
+          <article class="card">
+            <h3>Guided Meditation</h3>
+            <p>
+              Sit, breathe, and let your mind settle with a calm voice to follow
+            </p>
+            <span class="tag">30 min</span>
+          </article>
+        </div>
+      </section>
+
+      <!-- Schedule -->
+      <section class="section section-dark" id="schedule">
+        <h2>This week's schedule</h2>
+        <div class="table-wrap">
+          <table>
+            <tr>
+              <th>Day</th>
+              <th>Time</th>
+              <th>Class</th>
+            </tr>
+            <tr>
+              <td>Monday</td>
+              <td>7:00 AM</td>
+              <td>Gentle Flow</td>
+            </tr>
+            <tr>
+              <td>Wednesday</td>
+              <td>6:30 PM</td>
+              <td>Power Vinyasa</td>
+            </tr>
+            <tr>
+              <td>Friday</td>
+              <td>8:00 AM</td>
+              <td>Guided Meditation</td>
+            </tr>
+            <tr>
+              <td>Saturday</td>
+              <td>9:30 AM</td>
+              <td>Gentle Flow</td>
+            </tr>
+            <tr>
+              <td>Sunday</td>
+              <td>5:00 PM</td>
+              <td>Power Vinyasa</td>
+            </tr>
+          </table>
+        </div>
+      </section>
+
+      <!-- Teachers -->
+      <section class="section" id="teachers">
+        <h2>Meet your teachers</h2>
+        <div class="grid-3">
+          <article class="teacher">
+            <div class="avatar">AM</div>
+            <h3>Anika Mehra</h3>
+            <p>Gentle Flow and Meditation</p>
+          </article>
+
+          <article class="teacher">
+            <div class="avatar">LC</div>
+            <h3>Leo Carter</h3>
+            <p>Power Vinyasa</p>
+          </article>
+
+          <article class="teacher">
+            <div class="avatar">SR</div>
+            <h3>Sara Rios</h3>
+            <p>Breathwork and Meditation</p>
+          </article>
+        </div>
+      </section>
+
+      <!-- Pricing -->
+      <section class="section section-tint" id="pricing">
+        <h2>Simple Pricing</h2>
+        <div class="grid-3">
+          <article class="card">
+            <h3>Drop-in</h3>
+            <p class="price">$18</p>
+            <ul>
+              <li>One Class</li>
+              <li>Mat included</li>
+            </ul>
+            <a href="#join" class="btn btn-outline">Choose drop-in</a>
+          </article>
+
+          <article class="card featured">
+            <h3>Monthly</h3>
+            <p class="price">$89</p>
+            <ul>
+              <li>Unlimited Classes</li>
+              <li>Mat included</li>
+              <li>Bring a friend once</li>
+            </ul>
+            <a href="#join" class="btn">Choose monthly</a>
+          </article>
+
+          <article class="card">
+            <h3>IO-Class pass</h3>
+            <p class="price">$140</p>
+            <ul>
+              <li>Valid for 3 months</li>
+              <li>Share with a friend</li>
+            </ul>
+            <a href="#join" class="btn btn-outline">Choose drop-in</a>
+          </article>
+        </div>
+      </section>
+
+      <!-- Testimonial -->
+      <section class="section quote-section">
+        <blockquote>
+          I came for the stretching and stayed for the quiet. It is the one hour
+          of my week that is only mine.
+          <cite>Maya, memeber</cite>
+        </blockquote>
+      </section>
+
+      <!-- Join Form -->
+      <section class="section section-dark" id="join">
+        <form class="form">
+          <label for="email">Your email</label>
+          <input
+            type="email"
+            id="email"
+            placeholder="you@example.com"
+            required
+          />
+          <button type="submit" class="btn">Send me times</button>
+        </form>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>Stillwater Yoga Studio | 12 Lotus Lane</p>
+      <p>hello@stillwater.example | Open daily 6 AM to 8 PM</p>
+    </footer>
+  </body>
+</html>
